@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(109, 184, 237);
+    border-radius: 3px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+
+}
+
+
+.header .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.cart{
+    display: flex;
+    background-color:white ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+    
+
+.fa-solid{
+    color: rgb(61, 12, 12);
+}
+
+.product1{
+    text-align: center;
+}
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: orchid;
+    color: white;
+}
+
+
+#product1 .pro-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid cadetblue;
+    border-radius: 25px ;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+}
+
+
+#product1 .pro img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 18px;
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: darkslateblue;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: azure;
+    font-weight: 500;
+    color: rgb(9, 49, 36);
+    bottom: 20px;
+    right: 10px;
+}
+
